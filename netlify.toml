@@ -3,4 +3,4 @@
   command = "composer install && vite build"
 
 [context.production.environment]
-  PHP_VERSION = "8.1"
+  PHP_VERSION = "8.2"
