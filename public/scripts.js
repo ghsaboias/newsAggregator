@@ -13,7 +13,6 @@ async function fetchNews() {
 }
 
 function displayNews(news) {
-    console.log(news);
     const headlinesSection = document.getElementById("headlines");
     headlinesSection.innerHTML = news
         .map(
